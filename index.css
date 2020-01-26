@@ -178,8 +178,8 @@ body {
 
 .team-member-photo {
   display: block;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   flex-grow: 1;
   border-radius: 50%;
 }

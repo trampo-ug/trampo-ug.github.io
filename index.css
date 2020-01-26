@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  background-image: url(images/home-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; /* change this*/
+  height: 100vh;
+}
+
+.header {
+  padding: 10px;
+}
+
+.header .logo {
+  padding: 0 15px;
+}
+
+.header .link {
+  padding: 0 5px;
+}
+
+.tagline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.tagline {
+  display: inline-block;
+  text-align: center;
+  color: white; /* change this*/
+}
+
+.value-proposition {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  top: -100px;
+}
+
+.value {
+  display: inline-block;
+  margin: auto 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.value-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.value-title {
+}
+
+.value-description {
+}
+
+.services {
+  margin-top: -50px;
+}
+
+.services .title {
+  text-align: center;
+}
+
+.content-services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: inline-block;
+  margin: auto 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.contact-button {
+  display: block;
+  margin: 20px auto;
+}
+
+.team {
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+}
+
+.team .title {
+  text-align: center;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member-photo {
+  display: block;
+  width: 150px;
+  flex-grow: 1;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-member-description {
+  flex-grow: 4;
+  display: block;
+  margin-left: 20px;
+}
+
+.team-member-name {
+  display: block;
+  margin-top: 15px;
+}
+
+.join-prompt {
+  width: 60%;
+  margin: auto;
+}
+
+.join-prompt .title {
+  text-align: center;
+}
+
+.join-message {
+  text-align: center;
+}
+
+.section {
+  width: 60%;
+  margin: auto;
+}
+
+.section .title {
+  text-align: center;
+}
+
+.advisory-board {
+  display: flex;
+  justify-content: center;
+}
+
+.board-member {
+  text-align: center;
+  width: 30%;
+}
+
+.board-member-name {
+  display: block;
+}
+
+.statement {
+  text-align: center;
+}
+
+.objective,
+.value-point {
+  width: 50%;
+  margin: auto;
+}
+
+.partner {
+  display: inline-block;
+  margin: 10px;
+}

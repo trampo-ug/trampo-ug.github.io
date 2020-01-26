@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: Montserrat, sans-serif;
 }
 
 .top {
@@ -15,16 +16,22 @@ body {
   height: 100vh;
 }
 
+.top-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
 .header {
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 .header .logo {
   padding: 0 15px;
+  font-size: 1.2em;
 }
 
 .header .link {
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .tagline-container {
@@ -37,20 +44,37 @@ body {
 .tagline {
   display: inline-block;
   text-align: center;
+  font-size: 2.5em;
   color: white; /* change this*/
+}
+
+.tagline-text {
+  padding: 0;
+  margin: 0;
 }
 
 .value-proposition {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   top: -100px;
+  width: 90%;
+  margin: auto;
+}
+
+.container-values {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 20px;
 }
 
 .value {
-  display: inline-block;
-  margin: auto 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
   text-align: center;
+  padding: 20px 10px;
   width: 30%;
 }
 
@@ -60,6 +84,7 @@ body {
 }
 
 .value-title {
+  font-weight: bold;
 }
 
 .value-description {
@@ -67,27 +92,63 @@ body {
 
 .services {
   margin-top: -50px;
+  width: 90%;
+  margin: auto;
 }
 
 .services .title {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .content-services {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.container-services {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto 20px;
+  text-align: center;
 }
 
 .service {
-  display: inline-block;
-  margin: auto 20px;
-  text-align: center;
   width: 30%;
+  border-radius: 5px;
+  transition: background-color linear 0.3s;
+}
+
+.service:hover {
+  cursor: pointer;
+  background-color: #49f1c6;
+}
+
+.service-client {
+  font-weight: bold;
+}
+
+.service-point {
+  margin: 5px auto;
+  text-align: left;
 }
 
 .contact-button {
+  border-radius: 30px;
+  border: none;
+  background-color: #49f1c6;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
   display: block;
   margin: 20px auto;
+  padding: 10px 50px;
+  transition: background-color linear 0.3s;
+}
+
+.contact-button:hover {
+  cursor: pointer;
+  background-color: #00a887;
 }
 
 .team {
@@ -98,6 +159,7 @@ body {
 
 .team .title {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .team-member {
@@ -131,6 +193,7 @@ body {
 
 .join-prompt .title {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .join-message {
@@ -144,6 +207,7 @@ body {
 
 .section .title {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .advisory-board {
